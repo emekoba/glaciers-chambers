@@ -1,0 +1,20 @@
+.glaciers {
+	height: 100vh;
+	overflow: scroll;
+	position: relative;
+	/* background-color: aqua; */
+}
+
+.glaciers::-webkit-scrollbar {
+	display: none;
+}
+
+.banner {
+	height: 120vh;
+}
+
+.banner img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}

@@ -1,13 +1,41 @@
+@font-face {
+	font-family: Montserrat;
+	src: url("./Resources/Fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face {
+	font-family: Emporia;
+	src: url("./Resources/Fonts/Emporia/EmporiaRough.otf");
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+div {
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+
+button {
+	outline: none;
+	border: none;
+	transition: 0.1s ease-in-out;
+	background: none;
+	cursor: pointer;
+	font-family: Montserrat;
+}
+
+button:hover {
+	transform: scale(0.9);
 }
